@@ -22,8 +22,10 @@ public class Main {
             arr[a] = arr[b];
             arr[b] = temp;
         }
+        StringBuilder sb = new StringBuilder();
         for(int i : arr){
-            System.out.print(i+" ");
+            sb.append(i).append(" ");
         }
+        System.out.println(sb);
     }
 }
